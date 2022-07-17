@@ -1,7 +1,6 @@
 public class BonusMilesService {
     public int calculate(int price) {
-        System.out.println("Сколько миль будет начислено");
-        System.out.println((price /20) + "миль начислено");
-        return 0;
+        int miles = price / 20;
+        return miles;
     }
 }
